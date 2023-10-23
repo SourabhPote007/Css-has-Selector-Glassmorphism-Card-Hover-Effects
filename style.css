@@ -18,6 +18,23 @@ body
     transition: 0.5s;
 }
 
+body:has(.box[data-color="clr1"]:hover)
+{
+    background: #162527;
+}
+body:has(.box[data-color="clr2"]:hover)
+{
+    background: #202011;
+}
+body:has(.box[data-color="clr3"]:hover)
+{
+    background: #5b4510;
+}
+body:has(.box[data-color="clr4"]:hover)
+{
+    background: #611417;
+}
+
 .container
 {
     position: relative;
